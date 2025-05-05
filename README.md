@@ -1,54 +1,97 @@
-# React + TypeScript + Vite
+Weather Forecast App
+Bu uygulama, kullanıcıya günlük hava durumu tahminlerini sağlar. Uygulama, React, TypeScript ve çeşitli modern frontend teknolojilerini kullanarak geliştirilmiştir. Ayrıca, çoklu dil desteği ve tema değiştirme özelliklerine sahiptir.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Özellikler
+Hava Durumu Görüntüleme: Kullanıcılar, tarih, günlük sıcaklıklar, hava durumu ikonu ve açıklamalarıyla hava durumu bilgilerini görüntüleyebilirler.
 
-Currently, two official plugins are available:
+Dil Desteği: Uygulama, farklı dillerde (şu anda İngilizce ve İspanyolca destekleniyor) kullanılabilir. Kullanıcı dilini değiştirebilir.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tema Değiştirme: Kullanıcılar, ışık ve karanlık tema arasında geçiş yapabilirler.
 
-## Expanding the ESLint configuration
+Test Edilebilirlik: Uygulama, Jest ve Testing Library kullanarak test edilmiştir.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Teknolojiler
+React: Kullanıcı arayüzü için React kullanılmıştır.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+TypeScript: Proje TypeScript ile yazılmıştır.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+React Bootstrap: UI bileşenleri için React Bootstrap kullanılmıştır.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+i18next: Çoklu dil desteği için i18next kullanılmıştır.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Jest & Testing Library: Testler için Jest ve Testing Library kullanılmıştır.
+
+GitHub Actions: CI/CD işlemleri GitHub Actions ile otomatikleştirilmiştir.
+
+Kurulum
+Bu projeyi yerel olarak çalıştırmak için aşağıdaki adımları takip edebilirsiniz.
+
+Gereksinimler
+Node.js (v16 ve üzeri)
+
+npm veya yarn
+
+Adımlar
+Bu repository’yi klonlayın:
+
+bash
+Kopyala
+Düzenle
+git clone https://github.com/kullanici-adiniz/weather-forecast-app.git
+cd weather-forecast-app
+Gerekli bağımlılıkları yükleyin:
+
+bash
+Kopyala
+Düzenle
+npm install
+veya
+
+bash
+Kopyala
+Düzenle
+yarn install
+Uygulamayı yerel olarak çalıştırın:
+
+bash
+Kopyala
+Düzenle
+npm start
+veya
+
+bash
+Kopyala
+Düzenle
+yarn start
+Uygulama tarayıcınızda http://localhost:3000 adresinde çalışacaktır.
+
+Testler
+Testleri çalıştırmak için aşağıdaki komutu kullanabilirsiniz:
+
+bash
+Kopyala
+Düzenle
+npm test
+ya da
+
+bash
+Kopyala
+Düzenle
+yarn test
+Testler, Jest ve Testing Library kullanılarak yazılmıştır. CI süreci de GitHub Actions ile entegre edilmiştir, böylece her push ve pull request işleminde otomatik olarak testler çalıştırılır.
+
+Katkı
+Katkıda bulunmak isterseniz, aşağıdaki adımları takip edebilirsiniz:
+
+Bu repository’i fork’layın.
+
+Kendi dalınızı oluşturun (git checkout -b feature-branch).
+
+Yapacağınız değişiklikleri commit’leyin (git commit -m 'Add feature').
+
+Değişikliklerinizi push’layın (git push origin feature-branch).
+
+Pull request gönderin.
+
+Lisans
+Bu proje MIT Lisansı ile lisanslanmıştır.
