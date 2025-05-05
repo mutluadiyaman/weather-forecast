@@ -1,45 +1,54 @@
-Weather Forecast App
-Bu uygulama, kullanıcıya günlük hava durumu tahminlerini sağlar. Uygulama, React, TypeScript ve çeşitli modern frontend teknolojilerini kullanarak geliştirilmiştir. Ayrıca, çoklu dil desteği ve tema değiştirme özelliklerine sahiptir.
+🌤️ Weather Forecast App
 
-Özellikler
-Hava Durumu Görüntüleme: Kullanıcılar, tarih, günlük sıcaklıklar, hava durumu ikonu ve açıklamalarıyla hava durumu bilgilerini görüntüleyebilirler.
+📌 Proje Hakkında
+Bu uygulama, kullanıcılara günlük hava durumu tahminleri sağlar. React, TypeScript ve modern frontend teknolojileri kullanılarak geliştirilmiştir. Çoklu dil desteği, tema değiştirme, ve dinamik hava durumu verisi görüntüleme özellikleri ile donatılmıştır.
 
-Dil Desteği: Uygulama, farklı dillerde (şu anda İngilizce ve İspanyolca destekleniyor) kullanılabilir. Kullanıcı dilini değiştirebilir.
+🚀 Özellikler
+Hava Durumu Bilgileri
+Günlük hava durumu tahminlerini, tarih, sıcaklıklar, hava durumu simgeleri ve açıklamalarla birlikte görüntüleyebilirsiniz.
 
-Tema Değiştirme: Kullanıcılar, ışık ve karanlık tema arasında geçiş yapabilirler.
+Dil Seçeneği
+Uygulama, İngilizce ve İspanyolca olmak üzere çoklu dil desteği sunar. Kullanıcı dilini değiştirebilir.
 
-Test Edilebilirlik: Uygulama, Jest ve Testing Library kullanarak test edilmiştir.
+Karanlık ve Işık Modu
+Kullanıcılar, kolayca tema değiştirebilir ve tercihlerine göre ışık veya karanlık mod arasında geçiş yapabilirler.
 
-Teknolojiler
-React: Kullanıcı arayüzü için React kullanılmıştır.
+Test Edilebilirlik
+Jest ve React Testing Library kullanılarak yazılmış testler ile uygulama işlevsellik açısından güvence altına alınmıştır.
 
-TypeScript: Proje TypeScript ile yazılmıştır.
+Otomatik Dağıtım
+Vercel ile her güncellemeyi otomatik olarak dağıtın ve GitHub Actions ile CI/CD sürecini başlatın.
 
-React Bootstrap: UI bileşenleri için React Bootstrap kullanılmıştır.
+🛠️ Teknolojiler
+Frontend: React, TypeScript
 
-i18next: Çoklu dil desteği için i18next kullanılmıştır.
+UI Framework: React Bootstrap
 
-Jest & Testing Library: Testler için Jest ve Testing Library kullanılmıştır.
+Çoklu Dil Desteği: i18next
 
-GitHub Actions: CI/CD işlemleri GitHub Actions ile otomatikleştirilmiştir.
+Testler: Jest, React Testing Library
 
-Kurulum
+CI/CD: GitHub Actions
+
+Dağıtım: Vercel
+
+📥 Kurulum
 Bu projeyi yerel olarak çalıştırmak için aşağıdaki adımları takip edebilirsiniz.
 
 Gereksinimler
-Node.js (v16 ve üzeri)
+Node.js (v16 veya daha yeni sürüm)
 
 npm veya yarn
 
 Adımlar
-Bu repository’yi klonlayın:
+Proje dosyasını klonlayın:
 
 bash
 Kopyala
 Düzenle
 git clone https://github.com/kullanici-adiniz/weather-forecast-app.git
 cd weather-forecast-app
-Gerekli bağımlılıkları yükleyin:
+Bağımlılıkları yükleyin:
 
 bash
 Kopyala
@@ -51,7 +60,7 @@ bash
 Kopyala
 Düzenle
 yarn install
-Uygulamayı yerel olarak çalıştırın:
+Uygulamayı başlatın:
 
 bash
 Kopyala
@@ -63,10 +72,10 @@ bash
 Kopyala
 Düzenle
 yarn start
-Uygulama tarayıcınızda http://localhost:3000 adresinde çalışacaktır.
+Bu komut ile uygulamanız http://localhost:3000 adresinde çalışacaktır.
 
-Testler
-Testleri çalıştırmak için aşağıdaki komutu kullanabilirsiniz:
+🧪 Testler
+Testleri çalıştırmak için şu komutu kullanabilirsiniz:
 
 bash
 Kopyala
@@ -78,20 +87,21 @@ bash
 Kopyala
 Düzenle
 yarn test
-Testler, Jest ve Testing Library kullanılarak yazılmıştır. CI süreci de GitHub Actions ile entegre edilmiştir, böylece her push ve pull request işleminde otomatik olarak testler çalıştırılır.
+🌐 Dağıtım
+Projeyi Vercel üzerinden otomatik olarak dağıtabilirsiniz. Yeni bir commit veya pull request, uygulamanın Vercel üzerine otomatik olarak dağıtılmasını tetikler.
 
-Katkı
-Katkıda bulunmak isterseniz, aşağıdaki adımları takip edebilirsiniz:
+🧑‍💻 Katkı
+Proje açık kaynak olarak geliştirilmekte ve katkı almaktan memnuniyet duyarız. Katkıda bulunmak için:
 
-Bu repository’i fork’layın.
+Bu repository'yi fork'layın.
 
 Kendi dalınızı oluşturun (git checkout -b feature-branch).
 
-Yapacağınız değişiklikleri commit’leyin (git commit -m 'Add feature').
+Değişikliklerinizi commit'leyin (git commit -m 'Add new feature').
 
-Değişikliklerinizi push’layın (git push origin feature-branch).
+Dalınızı GitHub'a push'layın (git push origin feature-branch).
 
-Pull request gönderin.
+Pull request oluşturun.
 
-Lisans
+📄 Lisans
 Bu proje MIT Lisansı ile lisanslanmıştır.
