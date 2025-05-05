@@ -1,7 +1,11 @@
 🌤️ Weather Forecast App
 
+
+
 📌 Proje Hakkında
 Bu uygulama, kullanıcılara günlük hava durumu tahminleri sağlar. React, TypeScript ve modern frontend teknolojileri kullanılarak geliştirilmiştir. Çoklu dil desteği, tema değiştirme, ve dinamik hava durumu verisi görüntüleme özellikleri ile donatılmıştır.
+
+
 
 🚀 Özellikler
 Hava Durumu Bilgileri
@@ -16,9 +20,6 @@ Kullanıcılar, kolayca tema değiştirebilir ve tercihlerine göre ışık veya
 Test Edilebilirlik
 Jest ve React Testing Library kullanılarak yazılmış testler ile uygulama işlevsellik açısından güvence altına alınmıştır.
 
-Otomatik Dağıtım
-Vercel ile her güncellemeyi otomatik olarak dağıtın ve GitHub Actions ile CI/CD sürecini başlatın.
-
 🛠️ Teknolojiler
 Frontend: React, TypeScript
 
@@ -28,9 +29,6 @@ UI Framework: React Bootstrap
 
 Testler: Jest, React Testing Library
 
-CI/CD: GitHub Actions
-
-Dağıtım: Vercel
 
 📥 Kurulum
 Bu projeyi yerel olarak çalıştırmak için aşağıdaki adımları takip edebilirsiniz.
@@ -87,21 +85,7 @@ bash
 Kopyala
 Düzenle
 yarn test
-🌐 Dağıtım
-Projeyi Vercel üzerinden otomatik olarak dağıtabilirsiniz. Yeni bir commit veya pull request, uygulamanın Vercel üzerine otomatik olarak dağıtılmasını tetikler.
 
-🧑‍💻 Katkı
-Proje açık kaynak olarak geliştirilmekte ve katkı almaktan memnuniyet duyarız. Katkıda bulunmak için:
-
-Bu repository'yi fork'layın.
-
-Kendi dalınızı oluşturun (git checkout -b feature-branch).
-
-Değişikliklerinizi commit'leyin (git commit -m 'Add new feature').
-
-Dalınızı GitHub'a push'layın (git push origin feature-branch).
-
-Pull request oluşturun.
 
 📄 Lisans
 Bu proje MIT Lisansı ile lisanslanmıştır.
