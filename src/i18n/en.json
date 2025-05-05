@@ -1,0 +1,42 @@
+{
+  "back": "Back",
+  "min_temp": "Minimum Temperature",
+  "max_temp": "Maximum Temperature",
+  "feels_like": "Feels Like (Min/Max)",
+  "wind": "Wind",
+  "rain_chance": "Rain Probability",
+  "thunder_chance": "Thunderstorm Probability",
+  "sun_hours": "Hours of Sun",
+  "sunrise": "Sunrise",
+  "sunset": "Sunset",
+  "detail": {
+    "noData": "Data not found.",
+    "back": "Back",
+    "minTemp": "Minimum Temperature",
+    "maxTemp": "Maximum Temperature",
+    "realFeel": "Real Feel (Min/Max)",
+    "wind": "Wind",
+    "rainProb": "Rain Probability",
+    "thunderProb": "Thunderstorm Probability",
+    "sunHours": "Hours of Sun",
+    "hour": "hour",
+    "sunrise": "Sunrise",
+    "sunset": "Sunset"
+  },
+  "weather": {
+    "Sunny": "Sunny",
+    "Mostly sunny": "Mostly Sunny",
+    "Partly sunny": "Partly Sunny",
+    "Cloudy": "Cloudy",
+    "Showers": "Showers",
+    "Rain": "Rain",
+    "Thunderstorms": "Thunderstorms",
+    "Clear": "Clear",
+    "Mostly cloudy": "Mostly Cloudy",
+    "Intermittent clouds": "Intermittent Clouds",
+    "Mostly cloudy w/ t-storms": "Mostly cloudy w/ t-storms",
+    "Partly sunny w/ showers": "Partly sunny w/ showers"
+  },
+  "search_text": "Enter city name",
+  "search_btn_text": "Search"
+}

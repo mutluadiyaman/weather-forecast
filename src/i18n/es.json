@@ -1,0 +1,42 @@
+{
+  "back": "Atrás",
+  "min_temp": "Temperatura Mínima",
+  "max_temp": "Temperatura Máxima",
+  "feels_like": "Sensación Térmica (Mín/Máx)",
+  "wind": "Viento",
+  "rain_chance": "Probabilidad de Lluvia",
+  "thunder_chance": "Probabilidad de Tormenta",
+  "sun_hours": "Horas de Sol",
+  "sunrise": "Amanecer",
+  "sunset": "Atardecer",
+  "detail": {
+    "noData": "Datos no encontrados.",
+    "back": "Volver",
+    "minTemp": "Temperatura mínima",
+    "maxTemp": "Temperatura máxima",
+    "realFeel": "Sensación térmica (Mín/Máx)",
+    "wind": "Viento",
+    "rainProb": "Probabilidad de lluvia",
+    "thunderProb": "Probabilidad de tormenta",
+    "sunHours": "Horas de sol",
+    "hour": "hora",
+    "sunrise": "Amanecer",
+    "sunset": "Atardecer"
+  },
+  "weather": {
+    "Sunny": "Soleado",
+    "Mostly sunny": "Mayormente soleado",
+    "Partly sunny": "Parcialmente soleado",
+    "Cloudy": "Nublado",
+    "Showers": "Chubascos",
+    "Rain": "Lluvia",
+    "Thunderstorms": "Tormentas eléctricas",
+    "Clear": "Despejado",
+    "Mostly Cloudy": "Mayormente nublado",
+    "Intermittent clouds": "Nubes intermitentes",
+    "Mostly cloudy w/ t-storms": "Mayormente nublado con tormentas eléctricas",
+    "Partly sunny w/ showers": "Parcialmente soleado con lluvias"
+  },
+  "search_text": "Introduzca el nombre de la ciudad",
+  "search_btn_text": "Buscar"
+}
